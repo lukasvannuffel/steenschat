@@ -18,7 +18,7 @@ export default function Detail() {
       description: "De steen van liefde en vriendschap. Gebruikt in het oude Egypte!",
       color: "#ff6b9f",
       img: "/stones/rosequartz.jpg",
-      sound: "/sounds/rose.mp3"
+      sound: "/sounds/rosequartz.mp3"
     },
     obsidian: {
       name: "Obsidiaan",
