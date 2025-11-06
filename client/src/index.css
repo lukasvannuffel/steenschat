@@ -1,0 +1,166 @@
+/* --- Algemene stijl --- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #8ec5fc 0%, #e0c3fc 100%);
+  color: #2c2c2c;
+}
+
+/* --- Container --- */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+/* --- Titel --- */
+h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  text-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+  margin-bottom: 25px;
+}
+
+/* --- Steenknoppen --- */
+.stone-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stone-btn {
+  padding: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Kleuren per steen */
+.btn-amethyst { background: #9b5de5; }
+.btn-rose { background: #ff6b9f; }
+.btn-obsidian { background: #3b3b3b; }
+
+/* Hover */
+.stone-btn:hover {
+  transform: scale(1.06);
+  box-shadow: 0px 6px 14px rgba(0,0,0,0.2);
+}
+
+/* --- Detailpagina --- */
+.detail-card {
+  background: white;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0px 6px 16px rgba(0,0,0,0.15);
+  margin-top: 20px;
+}
+
+.detail-card h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.detail-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* --- Terugknop --- */
+.back-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 2px solid #444;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  transform: scale(1.05);
+}
+/* Container */
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(#dff1ff, #fff7fc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+.home-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #003d77;
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.home-subtitle {
+  font-size: 1.3rem;
+  color: #335;
+  margin-bottom: 30px;
+}
+
+/* Stone Buttons Container */
+.stone-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 350px;
+}
+
+/* Card style */
+.stone-card {
+  padding: 18px 24px;
+  border-radius: 16px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 3px solid transparent;
+  transform: translateY(0px);
+}
+
+/* Hover animation */
+.stone-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Colors per stone */
+.amethyst {
+  background: #d4b6ff;
+  color: #3a1360;
+  border-color: #a77ee8;
+}
+
+.obsidian {
+  background: #3b3b3b;
+  color: #ffffff;
+  border-color: #1c1c1c;
+}
+
+.rosequartz {
+  background: #ffccd9;
+  color: #7a1f3d;
+  border-color: #e59ab0;
+}
