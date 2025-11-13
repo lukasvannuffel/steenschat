@@ -8,7 +8,7 @@ app.use(express.json());
 
 // ✅ Pas je COM-poort aan:
 const port = new SerialPort.SerialPort({
-  path: "/dev/tty.usbmodem1102", // macOS: /dev/tty.usbmodem101
+  path: "/dev/tty.usbmodem1202", // macOS: /dev/tty.usbmodem101
   baudRate: 9600,
 });
 
